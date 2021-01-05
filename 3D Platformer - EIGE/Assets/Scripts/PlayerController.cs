@@ -70,12 +70,29 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!m_CanMove)
+        {
+            m_Velocity.z = 0f;
+            m_Velocity.x = 0f;
+            return;
+        }
+        
         Run();
         Jump();
     }
 
     private void GetInput()
     {
+        if (!m_CanMove)
+        {
+            m_ForwardInput = 0f;
+            m_SidewardsInput = 0f;
+            m_TurnInput = 0f;
+            m_JumpInput = 0f;
+            m_Sprint = false;
+            return;
+        }
+        
         if (InputSetting.Forward_Axis.Length != 0)
             m_ForwardInput = Input.GetAxis(InputSetting.Forward_Axis);
         if (InputSetting.Sideways_Axis.Length != 0)
@@ -96,9 +113,6 @@ public class PlayerController : MonoBehaviour
 
     private void Run()
     {
-        if (!m_CanMove)
-            return;
-        
         float speed = MoveSetting.RunVelocity;
         if (m_Sprint)
         {

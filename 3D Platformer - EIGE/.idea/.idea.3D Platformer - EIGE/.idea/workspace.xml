@@ -20,37 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Materials/sphereAlphaMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Materials/sphereAlphaMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Blue.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Blue.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Gray.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Gray.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Green.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Green.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Pink.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Pink.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Red.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Prefabs/TinyFire/TinyFire_Red.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Textures/Sphere.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/TinyFire/Textures/Sphere.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Wood.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Wood.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bonfire_Lit.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bonfire_Lit.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Narrator.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Narrator.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/StoryElement.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/StoryElement.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Water.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Water.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +48,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@8.2.0/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/93CC9D9D-D3CB-438F-827B-811749B7E486/73/9c64a67b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,13 +69,17 @@
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/OnAirBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/LandingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
       </list>
     </option>
   </component>
@@ -152,7 +141,7 @@
       <workItem from="1609578917646" duration="8493000" />
       <workItem from="1609701597410" duration="5325000" />
       <workItem from="1609762765621" duration="678000" />
-      <workItem from="1609839094761" duration="3275000" />
+      <workItem from="1609839094761" duration="8558000" />
     </task>
     <servers />
   </component>

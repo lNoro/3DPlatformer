@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 0cf7cd9dd9302d24d82a0dc9b711a122, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -139,3 +139,4 @@ MonoBehaviour:
     Sideways_Axis: Horizontal
     Turn_Axis: Mouse X
     Jump_Button: Jump
+    Sprint_Button: 306

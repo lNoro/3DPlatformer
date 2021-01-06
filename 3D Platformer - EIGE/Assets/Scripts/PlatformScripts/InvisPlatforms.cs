@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Unfinished Script of Invisible Turning Platform
+ */
 public class InvisPlatforms : MonoBehaviour
 {    
     public float FadeTime = 5f;

@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
+    /*
+     * Collectables play Sound, increase Players Score and destroy themselves
+     */
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))

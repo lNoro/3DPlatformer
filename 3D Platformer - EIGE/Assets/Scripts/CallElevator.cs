@@ -5,9 +5,15 @@ using UnityEngine;
 
 public class CallElevator : MonoBehaviour
 {
+    /*
+     * Set Elevator GameObject in Inspector
+     */
     public GameObject Elevator;
+    
+    /*
+     * Private Members
+     */
     private Animator m_ElevatorAnim;
-
     private static String m_CurrentState = "Up";
     private static bool m_CallingAllowed = false;
     private Transform m_Parent;
@@ -18,6 +24,10 @@ public class CallElevator : MonoBehaviour
         m_Parent = transform.parent;
     }
 
+    /*
+     * If Player Presses Q in Range of Button Try to Call the Elevator
+     * Play Sound according to if Elevator is callable
+     */
     private void OnTriggerStay(Collider other)
     {
         if (Input.GetKeyDown(KeyCode.Q))
@@ -27,6 +37,12 @@ public class CallElevator : MonoBehaviour
         }
     }
 
+    /*
+     * Elevator is deactivated at first
+     * Activate Elevator when Player reached the top floor
+     * Activation is saved in static member
+     * According to where the Elevator is, move up or down
+     */
     private void TryCall()
     {
         if (!m_CallingAllowed)

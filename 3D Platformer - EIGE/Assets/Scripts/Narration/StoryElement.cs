@@ -3,6 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Script which activates StoryTelling Mode when entering Trigger
+ * Stores a Dialog Object which will be displayed then
+ */
 public class StoryElement : MonoBehaviour
 {
     public Dialog Dialog;

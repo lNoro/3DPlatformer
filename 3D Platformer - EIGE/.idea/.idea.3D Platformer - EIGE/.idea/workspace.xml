@@ -20,12 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chars/Astro/AstrosAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Astro/AstrosAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,30 +62,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JiggleBeforeFall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InvisPlatforms.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Fall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ElevatorStates.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/JumpingBehavoiur.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/OnAirBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/LandingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +151,7 @@
       <workItem from="1609762765621" duration="678000" />
       <workItem from="1609839094761" duration="9987000" />
       <workItem from="1609932789887" duration="1315000" />
+      <workItem from="1609935020433" duration="5677000" />
     </task>
     <servers />
   </component>
@@ -229,5 +245,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1085" y="395" key="RiderGenerateDialog/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609709770960" />
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1609941258309">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609941258309" />
   </component>
 </project>

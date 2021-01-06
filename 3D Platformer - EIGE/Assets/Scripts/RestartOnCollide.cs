@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class RestartOnCollide : MonoBehaviour
 {
+    /*
+     * If player collides with GameObject attached to this script, Reload Scene
+     */
     private void OnCollisionEnter(Collision other)
     {
         GameObject otherGameObject = other.gameObject;

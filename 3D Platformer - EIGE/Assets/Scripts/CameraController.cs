@@ -14,6 +14,11 @@ public class CameraController : MonoBehaviour
     private Vector3 m_ToPosition;
     private float m_DistanceAway;
 
+    /*
+     * First Check if Camera collides with Walls on the way to DistanceAway
+     * Recalculate DistanceAway if Wall hit
+     * Update Camera Position and LookAt Character
+     */
     private void LateUpdate()
     {
         CheckDistanceAway();
@@ -22,6 +27,10 @@ public class CameraController : MonoBehaviour
         transform.LookAt(FollowObject);
     }
 
+    /*
+     * Check Max Distance first
+     * If Max Distance collides with something, recalculate the Distance
+     */
     private void CheckDistanceAway()
     {
         bool hit = Hit(DistanceAway);
@@ -42,6 +51,10 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    /*
+     * Send Raycast with distance_p length, on the way back from Character
+     * If Raycast collide with Wall return true, else false
+     */
     private bool Hit(float distance_p)
     {
         return Physics.Raycast(FollowObject.position, FollowObject.forward * -1f, distance_p, CameraCollide);

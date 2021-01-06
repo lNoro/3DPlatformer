@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * After Fall Animation is Played (Jiggle to left and right), activate Rigidbody of the Platform so it falls
+ */
 public class Fall : StateMachineBehaviour
 {
     private Rigidbody m_Rigidbody;
+    
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {

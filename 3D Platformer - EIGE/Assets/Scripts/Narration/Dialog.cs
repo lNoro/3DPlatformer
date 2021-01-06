@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Simple Dialog Class - Specify Sentences to Display
+ */
 [System.Serializable]
 public class Dialog
 {

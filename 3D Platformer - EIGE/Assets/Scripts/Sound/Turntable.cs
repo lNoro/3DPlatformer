@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+/*
+ * Generic Singleton Sound Manager
+ * Store Sounds in SoundArray which is initialized in Inspector
+ * PlaySound with Method Invocation from Anywhere
+ */
 public class Turntable : MonoBehaviour
 {
     public Sound[] Sounds;
@@ -32,6 +37,9 @@ public class Turntable : MonoBehaviour
         }
     }
 
+    /*
+     * Play the sound, according to given String
+     */
     public void PlaySound(string name_p)
     {
         Sound sound = Array.Find(Sounds, sound_p => sound_p.Name == name_p);
@@ -49,11 +57,5 @@ public class Turntable : MonoBehaviour
     void Start()
     {
         PlaySound("MainTheme");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

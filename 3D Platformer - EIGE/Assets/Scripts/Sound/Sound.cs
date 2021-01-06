@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+/*
+ * Basic Soundfile
+ * Determine Name, Audioclip and other settings in Inspector
+ */
 [System.Serializable]
 public class Sound
 {

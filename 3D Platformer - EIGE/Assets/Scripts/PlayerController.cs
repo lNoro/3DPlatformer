@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
 {
     #region members
     
+    /*
+     * Move settings for better inspector adjustments
+     */
     [System.Serializable]
     public class MoveSettings
     {
@@ -18,6 +21,9 @@ public class PlayerController : MonoBehaviour
         public LayerMask Ground;
     }
 
+    /*
+     * Input Settings for better inspector adjustments
+     */
     [System.Serializable]
     public class InputSettings
     {
@@ -31,6 +37,9 @@ public class PlayerController : MonoBehaviour
     public MoveSettings MoveSetting;
     public InputSettings InputSetting;
 
+    /*
+     * Private Members of PlayerController
+     */
     private Animator m_Animator;
     private Rigidbody m_RigidbodyPlayer;
     private Quaternion m_TargetRotation;
@@ -39,7 +48,6 @@ public class PlayerController : MonoBehaviour
     private bool m_Sprint;
     private bool m_CanMove = true;
     private bool m_Grounded = true;
-
     private int m_Score = 0;
 
     public int Score
@@ -51,6 +59,9 @@ public class PlayerController : MonoBehaviour
     #endregion
     
     
+    /*
+     * Initialize some Members on Awake
+     */
     private void Awake()
     {
         m_Velocity = Vector3.zero;
@@ -62,14 +73,22 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        //Get Input and save in members
         GetInput();
+        
+        //Set Grounded boolean
         Grounded();
+        
+        //Turn Player based on Mouse X
         Turn();
+        
+        //Animate Char according to Input
         Animate();
     }
 
     private void FixedUpdate()
     {
+        //If Movement is disabled, do nothing
         if (!m_CanMove)
         {
             m_Velocity.z = 0f;
@@ -77,12 +96,14 @@ public class PlayerController : MonoBehaviour
             return;
         }
         
+        //Apply Physic based Movements
         Run();
         Jump();
     }
 
     private void GetInput()
     {
+        //If Movement disabled, set Input to 0
         if (!m_CanMove)
         {
             m_ForwardInput = 0f;
@@ -93,6 +114,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
         
+        //Get and Set Input Parameters
         if (InputSetting.Forward_Axis.Length != 0)
             m_ForwardInput = Input.GetAxis(InputSetting.Forward_Axis);
         if (InputSetting.Sideways_Axis.Length != 0)
@@ -101,6 +123,7 @@ public class PlayerController : MonoBehaviour
             m_TurnInput = Input.GetAxis(InputSetting.Turn_Axis);
         if (InputSetting.Jump_Button.Length != 0)
             m_JumpInput = Input.GetAxisRaw(InputSetting.Jump_Button); 
+        
         if (m_Sprint)
         {
             m_Sprint = !Input.GetKeyUp(InputSetting.Sprint_Button);
@@ -113,6 +136,7 @@ public class PlayerController : MonoBehaviour
 
     private void Run()
     {
+        //If Player holds Ctrl, we sprint
         float speed = MoveSetting.RunVelocity;
         if (m_Sprint)
         {
@@ -126,6 +150,9 @@ public class PlayerController : MonoBehaviour
         m_RigidbodyPlayer.velocity = transform.TransformDirection(m_Velocity);
     }
 
+    /*
+     * Turn Char based on Mouse X
+     */
     private void Turn()
     {
         if (Mathf.Abs(m_TurnInput) > 0)
@@ -137,7 +164,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        //Start Physics after Timer
+        //Only Jump if Input is there and Char is not grounded
         if (m_JumpInput != 0 && m_Grounded)
         {
             m_RigidbodyPlayer.velocity = new Vector3(m_RigidbodyPlayer.velocity.x, MoveSetting.JumpVelocity,
@@ -145,6 +172,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    /*
+     * Set Animator Parameters according to Input
+     */
     private void Animate()
     {
         if (m_Animator == null)
@@ -161,11 +191,17 @@ public class PlayerController : MonoBehaviour
         m_Grounded = Physics.Raycast(transform.position, Vector3.down, MoveSetting.DistanceToGround, MoveSetting.Ground);
     }
 
+    /*
+     * Player cannot move, if Movement is disabled
+     */
     public void DisableMovement()
     {
         m_CanMove = false;
     }
 
+    /*
+     * Player can move, if Movement is enabled
+     */
     public void EnableMovement()
     {
         m_CanMove = true;
@@ -176,6 +212,9 @@ public class PlayerController : MonoBehaviour
         m_Score++;
     }
 
+    /*
+     * Play Sounds according on what Character collides
+     */
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Trampo"))
@@ -184,6 +223,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    /*
+     * Draw the Raycast Line, sent by Grounded()
+     */
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;

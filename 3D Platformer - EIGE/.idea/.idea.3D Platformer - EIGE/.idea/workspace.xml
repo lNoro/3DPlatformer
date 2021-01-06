@@ -20,20 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Narrator.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Narrator.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/StoryElement.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/StoryElement.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chars/Astro/AstrosAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Astro/AstrosAnimator.controller" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +68,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narrator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +134,8 @@
       <workItem from="1609578917646" duration="8493000" />
       <workItem from="1609701597410" duration="5325000" />
       <workItem from="1609762765621" duration="678000" />
-      <workItem from="1609839094761" duration="8558000" />
+      <workItem from="1609839094761" duration="9987000" />
+      <workItem from="1609932789887" duration="1315000" />
     </task>
     <servers />
   </component>
@@ -160,6 +154,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

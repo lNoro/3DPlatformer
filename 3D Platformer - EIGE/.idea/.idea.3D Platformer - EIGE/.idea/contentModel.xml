@@ -9,6 +9,9 @@
       <e p="Assets" t="Include">
         <e p="Animations" t="Include">
           <e p="AnimationBehaviour" t="Include">
+            <e p="Char" t="Include">
+              <e p="Landing.cs" t="Include" />
+            </e>
             <e p="Platforms" t="Include">
               <e p="Fall.cs" t="Include" />
             </e>

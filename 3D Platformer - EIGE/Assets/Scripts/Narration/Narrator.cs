@@ -91,6 +91,8 @@ public class Narrator : MonoBehaviour
             DialogField.text += line;
             yield return null;
         }
+        
+        yield return new WaitForSeconds(2f);
         m_NextLine = true;
     }
     

@@ -20,25 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +70,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
       </list>
     </option>
   </component>
@@ -151,7 +137,8 @@
       <workItem from="1609762765621" duration="678000" />
       <workItem from="1609839094761" duration="9987000" />
       <workItem from="1609932789887" duration="1315000" />
-      <workItem from="1609935020433" duration="5677000" />
+      <workItem from="1609935020433" duration="5813000" />
+      <workItem from="1610018538275" duration="2046000" />
     </task>
     <servers />
   </component>

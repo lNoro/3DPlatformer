@@ -20,11 +20,386 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/ProBuilder Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/ProBuilder Data/Default Material Palette.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.vox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Crash Site/Package/AncientCrashSite.vox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.vox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.vox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.vox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.vox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.vox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.vox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientPyramidShip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientPyramidShip.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.vox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.vox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-0-Portal_Stairs.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-0-Portal_Stairs.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-0-Portal_Stairs.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-0-Portal_Stairs.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-0-Portal_Stairs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-0-Portal_Stairs.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-1-Portal_Rings.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-1-Portal_Rings.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-1-Portal_Rings.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-1-Portal_Rings.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-1-Portal_Rings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-1-Portal_Rings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-2-Portal_Arch.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-2-Portal_Arch.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-2-Portal_Arch.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-2-Portal_Arch.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-2-Portal_Arch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal-2-Portal_Arch.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal.vox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Portal/AncientCosmicPortal.vox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/AncientPyramidShip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/AncientPyramidShip.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.mtl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.vox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/PyramidShip/Package/PyramidShips.vox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree4.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree4.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree5.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTree5.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTrees.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTrees.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTrees.blend1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/DeadTrees.blend1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/Texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/DeadTrees/DeadTrees/Texture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Palette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Palette.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/No Name 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/No Name 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/No Name 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/No Name 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/No Name.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/No Name.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Environment/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/AlienElevator.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/AlienElevator.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Brush Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Brush Settings/BrushSettings-Default.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Brush Settings/BrushSettings-Default.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Color Palette.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Color Palette/ColorPalette-Default.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Color Palette/ColorPalette-Default.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Prefab Palette.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Prefab Palette/PrefabPalette-Default.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Polybrush Data/Prefab Palette/PrefabPalette-Default.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/EntrancePalace.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/EntrancePalace.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support/Material.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support/Material/ProBuilder Default URP.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support/Material/ProBuilder Default URP.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support/Shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support/Shader/Standard Vertex Color.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/ProBuilder/4.4.0/Universal Render Pipeline Support/Shader/Standard Vertex Color.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Testing/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Branch_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Branch_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Bush_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Grass_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Ground_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Mushroom_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Rock_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Stump_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Stump_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Models/Tree_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Branch_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Branch_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Bush_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Grass_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Ground_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Rock_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Stump_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Stump_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Prefabs/Tree_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +435,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
@@ -74,6 +448,7 @@
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +513,8 @@
       <workItem from="1609839094761" duration="9987000" />
       <workItem from="1609932789887" duration="1315000" />
       <workItem from="1609935020433" duration="5813000" />
-      <workItem from="1610018538275" duration="2046000" />
+      <workItem from="1610018538275" duration="2925000" />
+      <workItem from="1610278951968" duration="1281000" />
     </task>
     <servers />
   </component>

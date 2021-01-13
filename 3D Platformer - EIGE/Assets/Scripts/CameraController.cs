@@ -57,6 +57,6 @@ public class CameraController : MonoBehaviour
      */
     private bool Hit(float distance_p)
     {
-        return Physics.Raycast(FollowObject.position, FollowObject.forward * -1f, distance_p, CameraCollide);
+        return Physics.Raycast(FollowObject.position + Vector3.up * DistanceUp, FollowObject.forward * -1f, distance_p, CameraCollide);
     }
 }

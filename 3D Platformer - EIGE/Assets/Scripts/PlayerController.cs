@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour
     public MoveSettings MoveSetting;
     public InputSettings InputSetting;
 
+    public Transform SpawnPoint;
+
     /*
      * Private Members of PlayerController
      */
@@ -69,6 +71,11 @@ public class PlayerController : MonoBehaviour
         m_TargetRotation = transform.rotation;
         m_RigidbodyPlayer = GetComponent<Rigidbody>();
         m_Animator = GetComponent<Animator>();
+    }
+
+    private void Start()
+    {
+        Spawn();
     }
 
     private void Update()
@@ -210,6 +217,14 @@ public class PlayerController : MonoBehaviour
     public void CollectCoin()
     {
         m_Score++;
+    }
+    
+    /*
+     * Spawn Player on current Spawnpoint
+     */
+    public void Spawn()
+    {
+        transform.position = SpawnPoint.position;
     }
 
     /*

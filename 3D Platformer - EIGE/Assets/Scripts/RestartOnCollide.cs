@@ -13,7 +13,7 @@ public class RestartOnCollide : MonoBehaviour
         GameObject otherGameObject = other.gameObject;
         if (otherGameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("SampleScene");
+            otherGameObject.GetComponent<PlayerController>().Spawn();
         }
     }
 }

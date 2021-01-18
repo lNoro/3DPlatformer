@@ -17,6 +17,8 @@ public class Narrator : MonoBehaviour
     public VolumeProfile VolumeProfile;
     public TMP_Text DialogField;
     public TMP_Text ContinueField;
+    public TMP_Text InteractField;
+    public Image InteractBackground;
     public GameObject Player;
     
     private Vignette Vignette;
@@ -32,6 +34,19 @@ public class Narrator : MonoBehaviour
     {
         VolumeProfile.TryGet<Vignette>(out Vignette);
         m_Lines = new Queue<string>();
+        InteractBackground.enabled = false;
+    }
+    
+    public void ShowInteractable(string line_p)
+    {
+        InteractBackground.enabled = true;
+        InteractField.text = line_p;
+    }
+
+    public void HideInteractable()
+    {
+        InteractBackground.enabled = false;
+        InteractField.text = "";
     }
 
     /*

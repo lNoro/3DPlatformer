@@ -114,6 +114,7 @@
           <e p="CallElevator.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
+          <e p="Gate.cs" t="Include" />
           <e p="Narration" t="Include">
             <e p="Dialog.cs" t="Include" />
             <e p="Narrator.cs" t="Include" />

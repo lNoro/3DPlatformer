@@ -51,11 +51,27 @@ public class PlayerController : MonoBehaviour
     private bool m_CanMove = true;
     private bool m_Grounded = true;
     private int m_Score = 0;
+    private int m_DoubleJ = 1;
+    private bool m_CanJump = true;
+
+    private static bool m_DoubleJumpAquired = true;
+
+    public static bool DoubleJumpAquired
+    {
+        get => m_DoubleJumpAquired;
+        set => m_DoubleJumpAquired = value;
+    }
 
     public int Score
     {
         get => m_Score;
         set => m_Score = value;
+    }
+
+    public int DoubleJ
+    {
+        get => m_DoubleJ;
+        set => m_DoubleJ = value;
     }
 
     #endregion
@@ -120,6 +136,9 @@ public class PlayerController : MonoBehaviour
             m_Sprint = false;
             return;
         }
+
+        if (!m_CanJump)
+            m_CanJump = Input.GetButtonUp("Jump");
         
         //Get and Set Input Parameters
         if (InputSetting.Forward_Axis.Length != 0)
@@ -128,7 +147,7 @@ public class PlayerController : MonoBehaviour
             m_SidewardsInput = Input.GetAxis(InputSetting.Sideways_Axis);
         if (InputSetting.Turn_Axis.Length != 0)
             m_TurnInput = Input.GetAxis(InputSetting.Turn_Axis);
-        if (InputSetting.Jump_Button.Length != 0)
+        if (InputSetting.Jump_Button.Length != 0 && m_CanJump)
             m_JumpInput = Input.GetAxisRaw(InputSetting.Jump_Button); 
         
         if (m_Sprint)
@@ -171,10 +190,20 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
+        if(!m_CanJump)
+            return;
+        
         //Only Jump if Input is there and Char is not grounded
         if (m_JumpInput != 0 && m_Grounded)
         {
             m_RigidbodyPlayer.velocity = new Vector3(m_RigidbodyPlayer.velocity.x, MoveSetting.JumpVelocity,
+                m_RigidbodyPlayer.velocity.z);
+            m_CanJump = false;
+            m_JumpInput = 0f;
+        }
+        else if (m_DoubleJumpAquired && m_JumpInput != 0 && !m_Grounded && m_DoubleJ-- > 0)
+        {
+            m_RigidbodyPlayer.velocity = new Vector3(m_RigidbodyPlayer.velocity.x, 1.25f*MoveSetting.JumpVelocity,
                 m_RigidbodyPlayer.velocity.z);
         }
     }
@@ -191,6 +220,11 @@ public class PlayerController : MonoBehaviour
         m_Animator.SetFloat("Movement", movement);
         m_Animator.SetBool("Run", m_Sprint);
         m_Animator.SetBool("Grounded", m_Grounded);
+        if (m_DoubleJ == 0)
+        {
+            m_Animator.SetTrigger("DoubleJ");
+            m_DoubleJ--;
+        }
     }
     
     private void Grounded()

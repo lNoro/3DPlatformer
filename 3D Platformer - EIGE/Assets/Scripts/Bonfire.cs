@@ -27,6 +27,14 @@ public class Bonfire : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!m_BonfireLit)
+        {
+            FindObjectOfType<Narrator>().ShowInteractable("E :    Kindle Bonfire");
+        }
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (Input.GetKeyDown(KeyCode.Q))
@@ -34,5 +42,10 @@ public class Bonfire : MonoBehaviour
             m_BonfireLit = true;
             SpawnPoint.position = SpawnPointCopy.position;
         }
+    }
+    
+    private void OnTriggerExit(Collider other)
+    {
+        FindObjectOfType<Narrator>().HideInteractable();
     }
 }

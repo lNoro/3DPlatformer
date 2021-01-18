@@ -30,5 +30,6 @@ public class Landing : StateMachineBehaviour
     {
         
         animator.GetComponentInParent<PlayerController>().MoveSetting.RunVelocity = m_RunVelocityOrig;
+        animator.GetComponentInParent<PlayerController>().DoubleJ = 1;
     }
 }

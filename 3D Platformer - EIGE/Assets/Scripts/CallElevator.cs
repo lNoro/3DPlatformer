@@ -24,17 +24,27 @@ public class CallElevator : MonoBehaviour
         m_Parent = transform.parent;
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        FindObjectOfType<Narrator>().ShowInteractable("E :    Use Elevator");
+    }
+
     /*
-     * If Player Presses Q in Range of Button Try to Call the Elevator
+     * If Player Presses E in Range of Button Try to Call the Elevator
      * Play Sound according to if Elevator is callable
      */
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             TryCall();
             PlaySound();
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        FindObjectOfType<Narrator>().HideInteractable();
     }
 
     /*

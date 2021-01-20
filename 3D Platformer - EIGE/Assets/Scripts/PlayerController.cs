@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
         public float RotateVelocity = 100f;
         public float JumpVelocity = 8f;
         public float DistanceToGround = 1.3f;
+        public float WallSlideSpeed = 1f;
+        public LayerMask Wall;
         public LayerMask Ground;
     }
 
@@ -37,6 +39,8 @@ public class PlayerController : MonoBehaviour
     public MoveSettings MoveSetting;
     public InputSettings InputSetting;
 
+    public Transform Bottom;
+    public Transform Top;
     public Transform SpawnPoint;
 
     /*
@@ -53,7 +57,8 @@ public class PlayerController : MonoBehaviour
     private int m_Score = 0;
     private int m_DoubleJ = 1;
     private bool m_CanJump = true;
-
+    private bool m_WallSlide = false;
+    
     private static bool m_DoubleJumpAquired = true;
 
     public static bool DoubleJumpAquired
@@ -121,6 +126,7 @@ public class PlayerController : MonoBehaviour
         
         //Apply Physic based Movements
         Run();
+        WallSlide();
         Jump();
     }
 
@@ -174,6 +180,29 @@ public class PlayerController : MonoBehaviour
         m_Velocity.x = m_SidewardsInput * MoveSetting.RunVelocity;
 
         m_RigidbodyPlayer.velocity = transform.TransformDirection(m_Velocity);
+    }
+
+
+    private void WallSlide()
+    {
+        if (m_Grounded)
+            return;
+
+        Collider[] collided = Physics.OverlapCapsule(Bottom.position, Top.position, .23f, MoveSetting.Wall);
+
+        m_WallSlide = collided.Length > 0;
+        
+        if(!m_WallSlide)
+        {
+            Collider[] collidedGround = Physics.OverlapCapsule(Bottom.position, Top.position, .23f, MoveSetting.Ground);
+
+            m_WallSlide = collidedGround.Length > 0;
+        }
+
+        if(m_WallSlide)
+        {
+            m_RigidbodyPlayer.velocity = new Vector3(0f, Mathf.Clamp(m_RigidbodyPlayer.velocity.y,-MoveSetting.WallSlideSpeed, float.MaxValue), 0f);
+        }
     }
 
     /*

@@ -19,8 +19,8 @@ public class Fall : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.enabled = false;
         m_Rigidbody.isKinematic = false;
         m_Rigidbody.useGravity = true;
+        animator.enabled = false;
     }
 }

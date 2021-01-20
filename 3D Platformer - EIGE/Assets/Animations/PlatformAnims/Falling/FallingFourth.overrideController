@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FallingFourth
+  m_Controller: {fileID: 9100000, guid: 0b5c62e1a7c446b4e837b5e903c3c828, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 313b85abe31ed7e45a4d9cb1ae20c9e4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2e843b17f23321546b8fae16236dcb41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 208791750f56c5e46ac83a0502f37d07, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4e520241edbf0df4d8d946e060a2dd67, type: 2}

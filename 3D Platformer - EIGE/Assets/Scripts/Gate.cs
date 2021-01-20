@@ -15,7 +15,7 @@ public class Gate : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene("Level1");
+            GetComponent<LoadScene>().LoadLevel();
         }
     }
 

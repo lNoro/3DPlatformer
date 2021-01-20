@@ -15,6 +15,7 @@
             </e>
             <e p="Platforms" t="Include">
               <e p="Fall.cs" t="Include" />
+              <e p="Spawn.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -115,6 +116,7 @@
           <e p="CameraController.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
           <e p="Gate.cs" t="Include" />
+          <e p="LoadScene.cs" t="Include" />
           <e p="Narration" t="Include">
             <e p="Dialog.cs" t="Include" />
             <e p="Narrator.cs" t="Include" />

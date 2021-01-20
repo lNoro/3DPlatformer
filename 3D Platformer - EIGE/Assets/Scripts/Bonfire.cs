@@ -37,7 +37,7 @@ public class Bonfire : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             m_BonfireLit = true;
             SpawnPoint.position = SpawnPointCopy.position;

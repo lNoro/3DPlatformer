@@ -12,6 +12,14 @@ public class Collectable : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            if (gameObject.CompareTag("Key"))
+            {
+                
+                other.gameObject.GetComponent<PlayerController>().CollectKey();
+                FindObjectOfType<Turntable>().PlaySound("Collect");
+                Destroy(gameObject);
+                return;
+            }
             other.gameObject.GetComponent<PlayerController>().CollectCoin();
             FindObjectOfType<Turntable>().PlaySound("Collect");
             Destroy(gameObject);

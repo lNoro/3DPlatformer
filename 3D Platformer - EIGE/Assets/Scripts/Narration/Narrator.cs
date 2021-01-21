@@ -67,19 +67,13 @@ public class Narrator : MonoBehaviour
         }
 
         m_ContinueMessage = dialog_p.ContinueMessage;
+        DisplayNextSentence();
     }
 
     private void DisplayNextSentence()
     {
         if (m_Lines.Count == 0)
         {
-            //If no Lines to Show, show continue Message if not happened
-            if (!m_ContinueMessageShown)
-            {
-                StopAllCoroutines();
-                StartCoroutine(TypeContinue());
-            }
-            
             //Player ends Dialog with Q
             if(Input.GetKeyDown(KeyCode.Q))
                 EndDialog();
@@ -106,8 +100,16 @@ public class Narrator : MonoBehaviour
             DialogField.text += line;
             yield return null;
         }
+
+        if (ContinueField.text == "")
+        {
+            foreach (var line in m_ContinueMessage.ToCharArray())
+            {
+                ContinueField.text += line;
+                yield return null;
+            }
+        }
         
-        yield return new WaitForSeconds(2f);
         m_NextLine = true;
     }
     
@@ -135,24 +137,10 @@ public class Narrator : MonoBehaviour
             return;
         }
         
-        if (m_NextLine)
+        if (m_NextLine && Input.GetKeyDown(KeyCode.Q))
         {
             DisplayNextSentence();
         }
         Vignette.intensity.value = Mathf.Lerp(Vignette.intensity.value, .45f, Time.deltaTime * 5f);
-    }
-    
-    /*
-     * Types ContinueMessage Char by Char
-     */
-    IEnumerator TypeContinue()
-    {
-        m_ContinueMessageShown = true;
-        ContinueField.text = "";
-        foreach (var line in m_ContinueMessage.ToCharArray())
-        {
-            ContinueField.text += line;
-            yield return null;
-        }
     }
 }

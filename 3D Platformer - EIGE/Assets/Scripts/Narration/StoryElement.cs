@@ -13,6 +13,8 @@ public class StoryElement : MonoBehaviour
     private bool m_DialogShown = false;
     private static bool m_Instantiated = false;
 
+    private PhysicMaterial m_Slippery;
+
     private void Awake()
     {
         if (m_Instantiated)
@@ -30,10 +32,25 @@ public class StoryElement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        m_Slippery = other.material;
+        other.material = null;
         if (!m_DialogShown)
         {
             FindObjectOfType<Narrator>().StartDialog(Dialog);
             m_DialogShown = true;
+            if (gameObject.CompareTag("Sprint"))
+            {
+                other.GetComponent<PlayerController>().SprintAquired = true;
+            }
+            else if (gameObject.CompareTag("DoubleJump"))
+            {
+                other.GetComponent<PlayerController>().DoubleJumpAquired = true;
+            }
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        other.material = m_Slippery;
     }
 }

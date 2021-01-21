@@ -86,3 +86,9 @@ MonoBehaviour:
     Pitch: 1
     Loop: 0
     Source: {fileID: 0}
+  - Name: Bonfire
+    AudioClip: {fileID: 8300000, guid: 817a92e220462c1469d5eb8b0e413a70, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}

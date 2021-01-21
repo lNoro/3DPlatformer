@@ -57,20 +57,33 @@ public class PlayerController : MonoBehaviour
     private int m_Score = 0;
     private int m_DoubleJ = 1;
     private bool m_CanJump = true;
-    private bool m_WallSlide = false;
+    private bool m_Key = false;
     
-    private static bool m_DoubleJumpAquired = true;
+    private static bool m_DoubleJumpAquired = false;
+    private static bool m_SprintAquired = false;
 
-    public static bool DoubleJumpAquired
+    public bool DoubleJumpAquired
     {
         get => m_DoubleJumpAquired;
         set => m_DoubleJumpAquired = value;
+    }
+    
+    public bool SprintAquired
+    {
+        get => m_SprintAquired;
+        set => m_SprintAquired = value;
     }
 
     public int Score
     {
         get => m_Score;
         set => m_Score = value;
+    }
+
+    public bool Key
+    {
+        get => m_Key;
+        set => m_Key = value;
     }
 
     public int DoubleJ
@@ -126,7 +139,6 @@ public class PlayerController : MonoBehaviour
         
         //Apply Physic based Movements
         Run();
-        WallSlide();
         Jump();
     }
 
@@ -170,7 +182,7 @@ public class PlayerController : MonoBehaviour
     {
         //If Player holds Ctrl, we sprint
         float speed = MoveSetting.RunVelocity;
-        if (m_Sprint)
+        if (m_SprintAquired && m_Sprint)
         {
             speed *= 1.5f;
         }
@@ -181,30 +193,7 @@ public class PlayerController : MonoBehaviour
 
         m_RigidbodyPlayer.velocity = transform.TransformDirection(m_Velocity);
     }
-
-
-    private void WallSlide()
-    {
-        if (m_Grounded)
-            return;
-
-        Collider[] collided = Physics.OverlapCapsule(Bottom.position, Top.position, .23f, MoveSetting.Wall);
-
-        m_WallSlide = collided.Length > 0;
-        
-        if(!m_WallSlide)
-        {
-            Collider[] collidedGround = Physics.OverlapCapsule(Bottom.position, Top.position, .23f, MoveSetting.Ground);
-
-            m_WallSlide = collidedGround.Length > 0;
-        }
-
-        if(m_WallSlide)
-        {
-            m_RigidbodyPlayer.velocity = new Vector3(0f, Mathf.Clamp(m_RigidbodyPlayer.velocity.y,-MoveSetting.WallSlideSpeed, float.MaxValue), 0f);
-        }
-    }
-
+    
     /*
      * Turn Char based on Mouse X
      */
@@ -247,7 +236,7 @@ public class PlayerController : MonoBehaviour
 
         float movement = Mathf.Max(Mathf.Abs(m_ForwardInput), Mathf.Abs(m_SidewardsInput));
         m_Animator.SetFloat("Movement", movement);
-        m_Animator.SetBool("Run", m_Sprint);
+        m_Animator.SetBool("Run", m_SprintAquired && m_Sprint);
         m_Animator.SetBool("Grounded", m_Grounded);
         if (m_DoubleJ == 0)
         {
@@ -280,6 +269,11 @@ public class PlayerController : MonoBehaviour
     public void CollectCoin()
     {
         m_Score++;
+    }
+    
+    public void CollectKey()
+    {
+        m_Key = true;
     }
     
     /*

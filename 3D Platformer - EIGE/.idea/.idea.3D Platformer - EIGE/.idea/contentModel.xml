@@ -109,6 +109,9 @@
               </e>
             </e>
           </e>
+          <e p="PowerUps Vol 1 Free" t="Include">
+            <e p="Readme.txt" t="Include" />
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Bonfire.cs" t="Include" />

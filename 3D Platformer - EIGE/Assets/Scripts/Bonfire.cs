@@ -41,6 +41,7 @@ public class Bonfire : MonoBehaviour
         {
             m_BonfireLit = true;
             SpawnPoint.position = SpawnPointCopy.position;
+            FindObjectOfType<Turntable>().PlaySound("Bonfire");
         }
     }
     

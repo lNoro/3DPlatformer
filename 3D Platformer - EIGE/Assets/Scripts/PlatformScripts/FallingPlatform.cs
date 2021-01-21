@@ -22,7 +22,7 @@ public class FallingPlatform : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         GameObject otherGameObject = other.gameObject;
-        if (otherGameObject.CompareTag("Player"))
+        if (otherGameObject.CompareTag("Player") && !m_Spawning)
         {
             GetComponent<Animator>().SetTrigger("Fall");
         }
@@ -32,6 +32,8 @@ public class FallingPlatform : MonoBehaviour
     {
         yield return new WaitForSeconds(7.5f);
 
+        transform.rotation = Quaternion.Euler(0, -90f, 0);
+        
         GetComponent<Animator>().enabled = true;
         GetComponent<Animator>().SetTrigger("Spawn");
 

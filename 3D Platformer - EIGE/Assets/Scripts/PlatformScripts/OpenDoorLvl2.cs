@@ -8,15 +8,13 @@ using UnityEngine;
  */
 public class OpenDoorLvl2 : MonoBehaviour
 {
-    public int FinalScore;
-    
     /*
-     * If Player reached Final Score Open, if not do nothing
+     * If Player has Key open, if not do nothing
      * Play Sound accordingly
      */
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<PlayerController>().Score >= FinalScore)
+        if (other.GetComponent<PlayerController>().Key)
         {
             FindObjectOfType<Turntable>().PlaySound("Open");
             GetComponent<Animator>().SetTrigger("Open");

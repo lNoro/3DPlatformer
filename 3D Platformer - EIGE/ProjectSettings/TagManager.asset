@@ -9,6 +9,9 @@ TagManager:
   - Middle
   - Trampo
   - FallOff
+  - Key
+  - DoubleJump
+  - Sprint
   layers:
   - Default
   - TransparentFX

@@ -20,110 +20,308 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Spawn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Astro/AstroStartScene.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Astro/AstroStartScene.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingFirst.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingFirst.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingFivth.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingFivth.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingFourth.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingFourth.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingSecond.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingSecond.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingSixth.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingSixth.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingThird.overrideController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingThird.overrideController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Jiggle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Jiggle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleFivth.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleFivth.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleFourth.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleFourth.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleSecond.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleSecond.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleSixth.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleSixth.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleThird.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/JiggleThird.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Spawn.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Spawn.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnFivth.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnFivth.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnFourth.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnFourth.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnSecond.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnSecond.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnSixth.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnSixth.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnThird.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/SpawnThird.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Transitions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Transitions/Fade_Out.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Transitions/Fade_Out.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Transitions/Fade__In.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Transitions/Fade__In.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Transitions/Image.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Transitions/Image.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Testframe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Testframe.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingOnCollide.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingOnCollide.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingStairs.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingStairs.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene/ReflectionProbe-0.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene/ReflectionProbe-1.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene/ReflectionProbe-1.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Collectables.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Collectables/Coin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Collectables/Coin/Coin.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Collectables/Coin/Coin.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Collectables/Coin/Float.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Collectables/Coin/Float.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Arrows Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Arrows Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Battery Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Battery Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Bomb Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Bomb Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Coin Silver.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Coin Silver.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crossed Wrenches Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crossed Wrenches Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crystal Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crystal Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Cup Silver.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Cup Silver.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Diamond Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Diamond Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Flags Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Flags Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Jerry Can Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Jerry Can Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lightning Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lightning Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lock Silver.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lock Silver.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Magnet BlueRed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Magnet BlueRed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Medipack Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Medipack Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Poison Purple.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Poison Purple.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Shield Metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Shield Metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Skull Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Skull Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Star Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Star Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Arrows.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Arrows.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Battery.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Battery.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Bomb.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Bomb.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Coin.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Coin.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Crystal.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Crystal.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Cup.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Cup.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Diamond.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Diamond.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Flags.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Flags.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Heart.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Heart.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Hourglass.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Hourglass.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/JerryCan.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/JerryCan.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lightning.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lightning.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lock.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lock.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Magnet.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Magnet.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Medipack.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Medipack.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Poison.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Poison.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Shield.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Shield.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Skull.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Skull.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Star.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Star.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Battery Black.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Battery Black.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Coin Silver.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Coin Silver.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crossed Wrenches Red.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crossed Wrenches Red.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crystal Green.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crystal Green.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Cup Silver.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Cup Silver.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Flags Green.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Flags Green.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Heart Purple.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Heart Purple.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Hourglass Green.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Hourglass Green.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Lightning Blue.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Lightning Blue.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Magnet BlueRed.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Magnet BlueRed.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Medipack Red.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Medipack Red.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Poison Purple.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Poison Purple.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Star Red.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Star Red.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Scenes/DemoScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Scenes/DemoScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Arrows Green.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Arrows Green.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Battery Black.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Battery Black.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Coin Silver.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Coin Silver.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crossed Wrenches Red.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crossed Wrenches Red.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crystal Green.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crystal Green.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Cup Silver.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Cup Silver.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Diamond Green.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Diamond Green.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Flag Green.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Flag Green.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Heart Purple.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Heart Purple.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Hourglass Green.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Hourglass Green.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Jerry Can Green.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Jerry Can Green.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lightning Blue.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lightning Blue.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lock Silver.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lock Silver.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Magnet BlueRed.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Magnet BlueRed.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Medipack Red.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Medipack Red.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Poison Purple.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Poison Purple.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Shield Metal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Shield Metal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Star Red.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Star Red.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Materials/rust_key_autodesk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Materials/rust_key_autodesk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Materials/rust_key_standard.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Materials/rust_key_standard.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Mesh.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Mesh/rust_key.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Mesh/rust_key.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Prefabs/Float.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Prefabs/Float.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Prefabs/rust_key.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Prefabs/rust_key.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Prefabs/rust_key.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Prefabs/rust_key.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Metalness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Metalness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Roughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Roughness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rust Key/Textures/rust_key_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gold.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gold.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-40_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-40_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-40_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-40_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-41_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-41_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-41_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-41_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-42_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-42_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-42_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-42_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Bonfire.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Bonfire.mp3.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling3.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling3.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling4.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling4.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling4.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling4.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling5.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling5.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling5.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling5.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling6.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling6.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling6.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/Falling6.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform2.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Falling/FallingPlatform2.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/1x1 Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/1x1 Platform.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/L_Stairs(Falling).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/L_Stairs(Falling).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-10_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-11_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-12_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-13_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-14_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-15_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-16_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-17_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-18_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-19_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-20_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-21_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-22_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-23_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-24_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-25_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-26_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-27_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-28_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-29_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-30_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-30_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-30_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-30_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-31_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-31_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-31_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-31_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-32_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-32_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-32_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-32_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-33_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-33_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-33_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-33_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-34_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-34_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-34_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-34_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-35_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-35_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-35_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-35_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-36_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-36_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-36_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-36_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-37_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-37_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-37_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-37_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-38_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-38_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-38_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-38_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-39_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-39_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-39_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-39_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-4_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-6_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-7_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-8_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Lightmap-9_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-1.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-2.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-3.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-3.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-4.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-4.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-5.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-5.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-6.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-6.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-7.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-7.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-8.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/ReflectionProbe-8.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,31 +358,31 @@
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/LandingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narrator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController1.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
       </list>
     </option>
   </component>
@@ -223,10 +421,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9232">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="9232" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -265,7 +463,9 @@
       <workItem from="1610964941359" duration="380000" />
       <workItem from="1611002928750" duration="1368000" />
       <workItem from="1611052960864" duration="7485000" />
-      <workItem from="1611134611047" duration="9802000" />
+      <workItem from="1611134611047" duration="10585000" />
+      <workItem from="1611226786870" duration="651000" />
+      <workItem from="1611260791459" duration="6309000" />
     </task>
     <servers />
   </component>
@@ -296,93 +496,93 @@
     </state>
     <state width="805" height="774" key="DebuggerActiveHint/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144648748" />
     <state width="483" height="464" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1611098852375" />
-    <state width="2517" height="534" key="GridCell.Tab.0.bottom" timestamp="1611144461930">
+    <state width="2517" height="534" key="GridCell.Tab.0.bottom" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144461930" />
+    <state width="2517" height="534" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1611099937312" />
-    <state width="2517" height="534" key="GridCell.Tab.0.center" timestamp="1611144461930">
+    <state width="2517" height="534" key="GridCell.Tab.0.center" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144461930" />
+    <state width="2517" height="534" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1611099937312" />
-    <state width="2517" height="534" key="GridCell.Tab.0.left" timestamp="1611144461929">
+    <state width="2517" height="534" key="GridCell.Tab.0.left" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144461929" />
+    <state width="2517" height="534" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1611099937312" />
-    <state width="2517" height="534" key="GridCell.Tab.0.right" timestamp="1611144461930">
+    <state width="2517" height="534" key="GridCell.Tab.0.right" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144461930" />
+    <state width="2517" height="534" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1611099937312" />
-    <state width="2517" height="534" key="GridCell.Tab.1.bottom" timestamp="1611144487243">
+    <state width="2517" height="534" key="GridCell.Tab.1.bottom" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.1.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144487243" />
+    <state width="2517" height="534" key="GridCell.Tab.1.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="2517" height="534" key="GridCell.Tab.1.center" timestamp="1611144487243">
+    <state width="2517" height="534" key="GridCell.Tab.1.center" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.1.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144487243" />
+    <state width="2517" height="534" key="GridCell.Tab.1.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="2517" height="534" key="GridCell.Tab.1.left" timestamp="1611144487243">
+    <state width="2517" height="534" key="GridCell.Tab.1.left" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.1.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144487243" />
+    <state width="2517" height="534" key="GridCell.Tab.1.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="2517" height="534" key="GridCell.Tab.1.right" timestamp="1611144487243">
+    <state width="2517" height="534" key="GridCell.Tab.1.right" timestamp="1611185178216">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="534" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611144487243" />
+    <state width="2517" height="534" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.2.bottom" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.2.bottom" timestamp="1611185178217">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.2.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.2.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178217" />
     <state width="1493" height="304" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.2.center" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.2.center" timestamp="1611185178217">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.2.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.2.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178217" />
     <state width="1493" height="304" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.2.left" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.2.left" timestamp="1611185178216">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.2.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.2.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178216" />
     <state width="1493" height="304" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.2.right" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.2.right" timestamp="1611185178217">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.2.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.2.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178217" />
     <state width="1493" height="304" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.3.bottom" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.3.bottom" timestamp="1611185178217">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.3.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.3.bottom/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178217" />
     <state width="1493" height="304" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.3.center" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.3.center" timestamp="1611185178217">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.3.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.3.center/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178217" />
     <state width="1493" height="304" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.3.left" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.3.left" timestamp="1611185178217">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.3.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.3.left/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178217" />
     <state width="1493" height="304" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
-    <state width="1493" height="304" key="GridCell.Tab.3.right" timestamp="1611099937313">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="2517" height="534" key="GridCell.Tab.3.right" timestamp="1611185178217">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2517" height="535" key="GridCell.Tab.3.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609591953174" />
+    <state width="2517" height="534" key="GridCell.Tab.3.right/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611185178217" />
     <state width="1493" height="304" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1611099937313" />
     <state x="1085" y="395" key="RiderGenerateDialog" timestamp="1609709770960">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1085" y="395" key="RiderGenerateDialog/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609709770960" />
-    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1609941258309">
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1611265986435">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609941258309" />
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611265986435" />
   </component>
 </project>

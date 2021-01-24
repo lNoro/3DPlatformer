@@ -18,8 +18,6 @@ public class PlayerController : MonoBehaviour
         public float RotateVelocity = 100f;
         public float JumpVelocity = 8f;
         public float DistanceToGround = 1.3f;
-        public float WallSlideSpeed = 1f;
-        public LayerMask Wall;
         public LayerMask Ground;
     }
 
@@ -50,7 +48,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody m_RigidbodyPlayer;
     private Quaternion m_TargetRotation;
     private Vector3 m_Velocity;
-    private float m_ForwardInput, m_SidewardsInput, m_TurnInput, m_JumpInput;
+    private float m_ForwardInput, m_SidewardsInput, m_TurnInput, m_YInput, m_JumpInput;
     private bool m_Sprint;
     private bool m_CanMove = true;
     private bool m_Grounded = true;

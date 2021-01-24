@@ -20,31 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Floor.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Floor.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Wall.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Wall.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/large_square_pattern_01_ao_4k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/large_square_pattern_01_ao_4k.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/large_square_pattern_01_diff_4k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/large_square_pattern_01_diff_4k.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/large_square_pattern_01_nor_4k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/large_square_pattern_01_nor_4k.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/medieval_blocks_03_ao_4k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/medieval_blocks_03_ao_4k.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/medieval_blocks_03_diff_4k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/medieval_blocks_03_diff_4k.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/medieval_blocks_03_nor_4k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/medieval_blocks_03_nor_4k.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EntrancePalace.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EntrancePalace.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +81,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
       </list>
     </option>
   </component>
@@ -188,7 +166,7 @@
       <workItem from="1611134611047" duration="10585000" />
       <workItem from="1611226786870" duration="651000" />
       <workItem from="1611260791459" duration="6908000" />
-      <workItem from="1611484827117" duration="5010000" />
+      <workItem from="1611484827117" duration="6549000" />
     </task>
     <servers />
   </component>

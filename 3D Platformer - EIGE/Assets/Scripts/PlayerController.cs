@@ -37,8 +37,6 @@ public class PlayerController : MonoBehaviour
     public MoveSettings MoveSetting;
     public InputSettings InputSetting;
 
-    public Transform Bottom;
-    public Transform Top;
     public Transform SpawnPoint;
 
     /*
@@ -59,6 +57,9 @@ public class PlayerController : MonoBehaviour
     
     private static bool m_DoubleJumpAquired = false;
     private static bool m_SprintAquired = false;
+
+    public bool Sprint = false;
+    public bool DoubleJump = false;
 
     public bool DoubleJumpAquired
     {
@@ -103,6 +104,9 @@ public class PlayerController : MonoBehaviour
         m_TargetRotation = transform.rotation;
         m_RigidbodyPlayer = GetComponent<Rigidbody>();
         m_Animator = GetComponent<Animator>();
+
+        m_SprintAquired = Sprint;
+        m_DoubleJumpAquired = DoubleJump;
     }
 
     private void Start()

@@ -30,8 +30,8 @@ public class CameraController : MonoBehaviour
             
             if (DistanceUp > 4f)
                 DistanceUp = 4f;
-            else if (DistanceUp < 0f)
-                DistanceUp = 0f;
+            else if (DistanceUp < 0.35f)
+                DistanceUp = 0.35f;
         }
         
         CheckDistanceUp();

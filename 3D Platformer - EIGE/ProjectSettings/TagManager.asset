@@ -12,6 +12,7 @@ TagManager:
   - Key
   - DoubleJump
   - Sprint
+  - Rabbit
   layers:
   - Default
   - TransparentFX

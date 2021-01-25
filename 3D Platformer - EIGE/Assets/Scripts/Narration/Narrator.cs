@@ -14,6 +14,7 @@ using UnityEngine.UI;
  */
 public class Narrator : MonoBehaviour
 {
+    public bool PalaceScene;
     public VolumeProfile VolumeProfile;
     public TMP_Text DialogField;
     public TMP_Text ContinueField;
@@ -133,7 +134,7 @@ public class Narrator : MonoBehaviour
     {
         if (!m_Started)
         {
-            Vignette.intensity.value = Mathf.Lerp(Vignette.intensity.value, 0f, Time.deltaTime * 5f);
+            Vignette.intensity.value = Mathf.Lerp(Vignette.intensity.value, PalaceScene ? 0.4f : 0f, Time.deltaTime * 5f);
             return;
         }
         
@@ -141,6 +142,6 @@ public class Narrator : MonoBehaviour
         {
             DisplayNextSentence();
         }
-        Vignette.intensity.value = Mathf.Lerp(Vignette.intensity.value, .45f, Time.deltaTime * 5f);
+        Vignette.intensity.value = Mathf.Lerp(Vignette.intensity.value, PalaceScene ? .47f : .425f, Time.deltaTime * 5f);
     }
 }

@@ -8,11 +8,15 @@ public class Gate : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        FindObjectOfType<Narrator>().ShowInteractable("E :    Enter Voronoid");
+        if(other.CompareTag("Player"))
+            FindObjectOfType<Narrator>().ShowInteractable("E :    Enter Voronoid");
     }
 
     private void OnTriggerStay(Collider other)
     {
+        if (!other.CompareTag("Player"))
+            return;
+        
         if (Input.GetKeyDown(KeyCode.E))
         {
             GetComponent<LoadScene>().LoadLevel();
@@ -21,6 +25,7 @@ public class Gate : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        FindObjectOfType<Narrator>().HideInteractable();
+        if(other.CompareTag("Player"))
+            FindObjectOfType<Narrator>().HideInteractable();
     }
 }

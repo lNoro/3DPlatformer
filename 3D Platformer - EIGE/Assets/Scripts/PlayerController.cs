@@ -205,6 +205,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Mathf.Abs(m_TurnInput) > 0)
         {
+            m_TargetRotation = transform.rotation;
             m_TargetRotation *= Quaternion.AngleAxis(MoveSetting.RotateVelocity * m_TurnInput * Time.deltaTime, Vector3.up);
             transform.rotation = m_TargetRotation;
         }
@@ -269,6 +270,8 @@ public class PlayerController : MonoBehaviour
     {
         m_CanMove = true;
     }
+
+    public bool CanMove => m_CanMove;
 
     public void CollectCoin()
     {

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public GameObject Player;
+    
     public float DistanceAway;
     public float DistanceUp;
     public float Smooth;
@@ -13,14 +15,23 @@ public class CameraController : MonoBehaviour
     public LayerMask CameraCollide;
     public LayerMask CeilingCollide;
 
+    private PlayerController m_PlayerController;
     private Vector3 m_ToPosition;
     private float m_DistanceAway;
     private float m_DistanceUp;
     private float m_YInput;
 
+    private void Start()
+    {
+        m_PlayerController = Player.GetComponent<PlayerController>();
+    }
+
 
     private void Update()
     {
+        if (!m_PlayerController.CanMove)
+            return;
+        
         if (Y_Axis.Length != 0)
             m_YInput = Input.GetAxis(Y_Axis);
         

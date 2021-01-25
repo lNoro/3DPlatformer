@@ -135,6 +135,8 @@
             <e p="RotatingPlatform.cs" t="Include" />
           </e>
           <e p="PlayerController.cs" t="Include" />
+          <e p="Rabbit.cs" t="Include" />
+          <e p="RabbitMovement.cs" t="Include" />
           <e p="RestartOnCollide.cs" t="Include" />
           <e p="Sound" t="Include">
             <e p="Sound.cs" t="Include" />

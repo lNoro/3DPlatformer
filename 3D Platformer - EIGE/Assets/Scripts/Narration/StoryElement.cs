@@ -11,7 +11,6 @@ public class StoryElement : MonoBehaviour
 {
     public Dialog Dialog;
     private bool m_DialogShown = false;
-    private static bool m_Instantiated = false;
 
     private PhysicMaterial m_Slippery;
 
@@ -19,21 +18,6 @@ public class StoryElement : MonoBehaviour
     {
         get => m_DialogShown;
         set => m_DialogShown = value;
-    }
-
-    private void Awake()
-    {
-        if (m_Instantiated)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        DontDestroyOnLoad(gameObject);
-    }
-
-    private void Start()
-    {
-        m_Instantiated = true;
     }
 
     private void OnTriggerEnter(Collider other)

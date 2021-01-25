@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody m_RigidbodyPlayer;
     private Quaternion m_TargetRotation;
     private Vector3 m_Velocity;
+    private Transform m_InitialSpawn;
     private float m_ForwardInput, m_SidewardsInput, m_TurnInput, m_YInput, m_JumpInput;
     private bool m_Sprint;
     private bool m_CanMove = true;
@@ -107,6 +108,7 @@ public class PlayerController : MonoBehaviour
 
         m_SprintAquired = Sprint;
         m_DoubleJumpAquired = DoubleJump;
+        m_InitialSpawn = SpawnPoint;
     }
 
     private void Start()
@@ -295,6 +297,22 @@ public class PlayerController : MonoBehaviour
         {
             FindObjectOfType<Turntable>().PlaySound("Trampo");
         }
+    }
+    
+    /*
+     * Reset Progress of Player
+     * Resets Spawnpoint, DoubleJump and Sprint Ability
+     */
+    public void ResetProgress()
+    {
+        DoubleJumpAquired = false;
+        SprintAquired = false;
+        foreach (StoryElement storyElement in FindObjectsOfType<StoryElement>())
+        {
+            storyElement.DialogShown = false;
+        }
+
+        SpawnPoint = m_InitialSpawn;
     }
 
     /*

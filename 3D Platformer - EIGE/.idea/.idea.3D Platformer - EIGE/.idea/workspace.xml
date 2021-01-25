@@ -20,24 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/E.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/E.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Q.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/WASD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Textures/WASD.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OptionsMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/E.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Textures/E.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/E.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Textures/E.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Q.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Q.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/Q.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Textures/Q.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/WASD.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Textures/WASD.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Textures/WASD.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Textures/WASD.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/93CC9D9D-D3CB-438F-827B-811749B7E486/73/9c64a67b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -92,13 +90,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
       </list>
     </option>
   </component>
@@ -184,7 +183,7 @@
       <workItem from="1611260791459" duration="6908000" />
       <workItem from="1611484827117" duration="6549000" />
       <workItem from="1611520523326" duration="1158000" />
-      <workItem from="1611573814702" duration="4586000" />
+      <workItem from="1611573814702" duration="7153000" />
     </task>
     <servers />
   </component>

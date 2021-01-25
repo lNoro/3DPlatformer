@@ -126,6 +126,7 @@
             <e p="Narrator.cs" t="Include" />
             <e p="StoryElement.cs" t="Include" />
           </e>
+          <e p="PauseMenu.cs" t="Include" />
           <e p="PlatformScripts" t="Include">
             <e p="FallingPlatform.cs" t="Include" />
             <e p="InvisPlatforms.cs" t="Include" />

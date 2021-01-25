@@ -15,6 +15,12 @@ public class StoryElement : MonoBehaviour
 
     private PhysicMaterial m_Slippery;
 
+    public bool DialogShown
+    {
+        get => m_DialogShown;
+        set => m_DialogShown = value;
+    }
+
     private void Awake()
     {
         if (m_Instantiated)

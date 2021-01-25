@@ -14,6 +14,8 @@ public class Turntable : MonoBehaviour
     public Sound[] Sounds;
 
     private static Turntable m_Instance;
+    private float[] m_InitialVolume;
+    private float[] m_AdjustedVolume;
     
     private void Awake()
     {
@@ -35,6 +37,16 @@ public class Turntable : MonoBehaviour
             sound.Source.pitch = sound.Pitch;
             sound.Source.loop = sound.Loop;
         }
+        
+        m_InitialVolume = new float[Sounds.Length];
+        m_AdjustedVolume = new float[Sounds.Length];
+
+        int index = 0;
+        foreach (Sound sound in Sounds)
+        {
+            m_InitialVolume[index] = sound.Source.volume;
+            m_AdjustedVolume[index++] = sound.Source.volume;
+        }
     }
 
     /*
@@ -51,6 +63,20 @@ public class Turntable : MonoBehaviour
         }
         
         sound.Source.Play();
+    }
+
+    public void AdjustVolume(float value_p)
+    {
+        for (int i = 0; i < m_InitialVolume.Length; i++)
+        {
+            m_AdjustedVolume[i] = m_InitialVolume[i] * value_p;
+        }
+
+        int index = 0;
+        foreach (Sound sound in Sounds)
+        {
+            sound.Source.volume = m_AdjustedVolume[index++];
+        }
     }
 
     // Start is called before the first frame update

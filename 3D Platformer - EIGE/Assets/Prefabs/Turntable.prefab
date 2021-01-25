@@ -92,3 +92,9 @@ MonoBehaviour:
     Pitch: 1
     Loop: 0
     Source: {fileID: 0}
+  - Name: Click
+    AudioClip: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}

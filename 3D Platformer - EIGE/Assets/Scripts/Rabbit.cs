@@ -11,7 +11,7 @@ public class Rabbit : MonoBehaviour
     private Vector3 m_Velocity;
     private Rigidbody m_Rigidbody;
     private Animator m_Animator;
-    
+
     // Start is called before the first frame update
     void Start()
     {

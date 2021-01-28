@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
     public InputSettings InputSetting;
 
     public Transform SpawnPoint;
+    public GameObject BossUI;
 
     /*
      * Private Members of PlayerController
@@ -47,7 +49,7 @@ public class PlayerController : MonoBehaviour
     private Quaternion m_TargetRotation;
     private Vector3 m_Velocity;
     private Transform m_InitialSpawn;
-    private float m_ForwardInput, m_SidewardsInput, m_TurnInput, m_YInput, m_JumpInput;
+    private float m_ForwardInput, m_SidewardsInput, m_TurnInput, m_YInput, m_JumpInput, m_Target;
     private bool m_Sprint;
     private bool m_CanMove = true;
     private bool m_Grounded = true;
@@ -55,6 +57,9 @@ public class PlayerController : MonoBehaviour
     private int m_DoubleJ = 1;
     private bool m_CanJump = true;
     private bool m_Key = false;
+    private bool m_EnterDoor = false;
+    private bool m_InBattle = false;
+    private GameObject m_Door;
     
     private static bool m_DoubleJumpAquired = false;
     private static bool m_SprintAquired = false;
@@ -118,6 +123,21 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (m_EnterDoor)
+        {
+            float newX = Mathf.Lerp(transform.position.x, m_Target, Time.deltaTime * 1.5f);
+            Vector3 target = new Vector3(newX, transform.position.y, transform.position.z);
+            transform.position = target;
+            
+            if (Math.Abs(transform.position.x - m_Target) < .35)
+            {
+                m_EnterDoor = false;
+                m_Door.GetComponent<Collider>().enabled = true;
+            }
+                
+            return;
+        }
+        
         //Get Input and save in members
         GetInput();
         
@@ -289,6 +309,7 @@ public class PlayerController : MonoBehaviour
     public void Spawn()
     {
         transform.position = SpawnPoint.position;
+        m_EnterDoor = false;
     }
 
     /*
@@ -299,6 +320,11 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Trampo"))
         {
             FindObjectOfType<Turntable>().PlaySound("Trampo");
+        }
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            FindObjectOfType<Turntable>().PlaySound("Bite");
+            Spawn();
         }
     }
     
@@ -316,6 +342,20 @@ public class PlayerController : MonoBehaviour
         }
 
         SpawnPoint = m_InitialSpawn;
+    }
+
+    public void EnterDoor(GameObject door_p)
+    {
+        if (!m_InBattle)
+        {
+            FindObjectOfType<Turntable>().PlayBattleTheme();
+            BossUI.GetComponent<Animator>().SetBool("Show", true);
+        }
+        m_Target = transform.position.x - 2f;
+        m_EnterDoor = true;
+        m_InBattle = true;
+        m_Door = door_p;
+        m_Door.GetComponent<Collider>().enabled = false;
     }
 
     /*

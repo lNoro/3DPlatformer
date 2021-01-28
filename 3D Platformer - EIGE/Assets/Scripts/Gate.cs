@@ -6,26 +6,36 @@ using UnityEngine.SceneManagement;
 
 public class Gate : MonoBehaviour
 {
+    public bool DoorInLevel;
+    public bool Disabled;
+
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(!Disabled && other.CompareTag("Player"))
             FindObjectOfType<Narrator>().ShowInteractable("E :    Enter Voronoid");
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (!other.CompareTag("Player"))
+        if (!Disabled && !other.CompareTag("Player"))
             return;
         
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!Disabled && Input.GetKeyDown(KeyCode.E))
         {
-            GetComponent<LoadScene>().LoadLevel();
+            FindObjectOfType<Turntable>().PlaySound("Voronoid");
+            if (!DoorInLevel)
+            {
+                GetComponent<LoadScene>().LoadLevel();
+                return;
+            }
+
+            other.GetComponent<PlayerController>().EnterDoor(gameObject);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(!Disabled && other.CompareTag("Player"))
             FindObjectOfType<Narrator>().HideInteractable();
     }
 }

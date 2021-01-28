@@ -10,6 +10,11 @@ public class Menu : MonoBehaviour
         FindObjectOfType<Turntable>().PlaySound("Click");
     }
     
+    public void StartClick()
+    {
+        FindObjectOfType<Turntable>().PlaySound("PressStart");
+    }
+    
     public void QuitGame()
     {
         Application.Quit();

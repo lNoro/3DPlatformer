@@ -98,3 +98,63 @@ MonoBehaviour:
     Pitch: 1
     Loop: 0
     Source: {fileID: 0}
+  - Name: Bite
+    AudioClip: {fileID: 8300000, guid: ac6034ade498bb94b87620cdf6eac48b, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Battle
+    AudioClip: {fileID: 8300000, guid: 2fee16cb889ad43c39f036791a4316a5, type: 3}
+    Volume: 0.85
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: BattleAmbience
+    AudioClip: {fileID: 8300000, guid: e02906bb9cea04999a5d75ad15ab398e, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: BattleWon
+    AudioClip: {fileID: 8300000, guid: 3800d9607389c45b0a8673d3db98aded, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: SlimeSound
+    AudioClip: {fileID: 8300000, guid: 8af13bcb5f5ee4bf9855c7eafa95291b, type: 3}
+    Volume: 0.85
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: SlimeDie
+    AudioClip: {fileID: 8300000, guid: 6b5a6bade430446bdb1277645ae68178, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: YouDied
+    AudioClip: {fileID: 8300000, guid: fcc69d596e136463999c775beed3baa8, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Voronoid
+    AudioClip: {fileID: 8300000, guid: 053305631f13240d0a559a947fcefde4, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PressStart
+    AudioClip: {fileID: 8300000, guid: 6a2d08196a8cf445eaca6ddfc03a9aaf, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: PalaceAmbience
+    AudioClip: {fileID: 8300000, guid: 9191a3384637b4b4c91149ac0e3ebac1, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}

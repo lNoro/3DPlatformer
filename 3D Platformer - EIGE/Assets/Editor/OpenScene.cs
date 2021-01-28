@@ -26,4 +26,11 @@ public class OpenScene : MonoBehaviour
         EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
         EditorSceneManager.OpenScene("Assets/Scenes/Palace Night.unity");
     }
+    
+    [MenuItem("Open Scene/End")]
+    static void End()
+    {
+        EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+        EditorSceneManager.OpenScene("Assets/Scenes/End.unity");
+    }    
 }

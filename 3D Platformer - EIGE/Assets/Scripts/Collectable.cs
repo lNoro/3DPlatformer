@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
+    public GameObject ParticlePrefab;
+    
     /*
      * Collectables play Sound, increase Players Score and destroy themselves
      */
@@ -20,6 +22,7 @@ public class Collectable : MonoBehaviour
                 Destroy(gameObject);
                 return;
             }
+            Instantiate(ParticlePrefab, transform.position, ParticlePrefab.transform.rotation);
             other.gameObject.GetComponent<PlayerController>().CollectCoin();
             FindObjectOfType<Turntable>().PlaySound("Collect");
             Destroy(gameObject);

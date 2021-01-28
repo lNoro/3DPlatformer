@@ -20,36 +20,205 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rabbits/Animations/Rabbit.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rabbits/Animations/Rabbit.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP High.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP High.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP Low.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP Low.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP Medium 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP Medium 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PauseMenu.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/PauseMenu.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rotating.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rotating.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RabbitMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BossUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BossUI/Boss.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BossUI/Boss.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BossUI/Hide.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BossUI/Hide.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BossUI/Show.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/BossUI/Show.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Attack01_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Attack01_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Die_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Die_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Dizzy_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Dizzy_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/GetHit_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/GetHit_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/IdleBattle_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/IdleBattle_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/IdleNormal_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/IdleNormal_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Run_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Run_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/SlimeContorller.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/SlimeContorller.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Victory_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Victory_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Walk_Slime_Anim.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Chars/Slime/Walk_Slime_Anim.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Water.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Water/Water.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Water/Water.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Water/WaterRise.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Water/WaterRise.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/FBX/Circule.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/FBX/Circule.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/Prefabs/Valve_Prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/Prefabs/Valve_Prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Materials/LowPolyDungeonsLite_BG.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Materials/LowPolyDungeonsLite_BG.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Materials/LowPolyDungeonsLite_Light.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Materials/LowPolyDungeonsLite_Light.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Materials/LowPolyDungeonsLite_MAIN.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Materials/LowPolyDungeonsLite_MAIN.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Book_09.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Book_09.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Bottle_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Bottle_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Box_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Box_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Candle_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Candle_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Chair_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Chair_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Column_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Column_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Ground_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Ground_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Ground_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Ground_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Jug_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Jug_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Light_08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Light_08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Mud_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Mud_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Pot_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Pot_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Rock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Rock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Table_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Table_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/WallDecor_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/WallDecor_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Wall_27.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Wall_27.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Wood_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Models/Wood_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Book_09.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Book_09.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Bottle_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Bottle_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Box_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Box_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Candle_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Candle_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Chair_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Chair_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Column_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Column_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Ground_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Ground_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Ground_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Ground_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Jug_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Jug_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Light_08.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Light_08.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Mud_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Mud_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Particles_Dust.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Particles_Dust.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Particles_Pot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Particles_Pot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Pot_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Pot_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Rock_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Rock_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Table_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Table_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/WallDecor_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/WallDecor_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Wall_27.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Wall_27.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Wood_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Prefabs/Wood_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Textures/LowPolyDungeonsLite_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ImportedAssets/LowPolyDungeonsLite_URP/Textures/LowPolyDungeonsLite_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/BrightAboveLight 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/BrightAboveLight 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/BrightAboveLight.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/BrightAboveLight.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/AboveLight.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/AboveLight.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/CoinParticles.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/CoinParticles.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/WayPoint.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/WayPoint.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Wheel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Wheel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/rust_key.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/rust_key.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/End.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/End/Arena.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/End/Arena.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Global Volume Profile 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/Global Volume Profile 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Healthbar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisibleWall.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InvisibleWall.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Free Pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Free Pack/Monster Bite.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Free Pack/Monster Bite.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/BattleAmbience.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/BattleAmbience.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/BattleWon.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/BattleWon.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/PalaceAmbience.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/PalaceAmbience.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/PressStart.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/PressStart.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/SlimeDie.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/SlimeDie.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/SlimeSounds.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/SlimeSounds.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/Voronoid.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/Voronoid.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/YouDied.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sci-Fi-Sfx/Mp3/YouDied.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/Battle.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/Battle.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/bigbattle_2_FULL.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/bigbattle_2_FULL.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/closecombat_1_LOOP.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/closecombat_1_LOOP.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/espionage_1_LOOP_A_FULL.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/espionage_1_LOOP_A_FULL.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Rabbits/Prefabs/Rabbit 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Rabbits/Prefabs/Rabbit 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Pipeline/URP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/InvisibleplatformMaterail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/InvisibleplatformMaterail.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shaders/Lava.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shaders/Lava.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palace Night/Global Volume Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Bonfire.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/Bonfire.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,10 +236,14 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@8.2.0/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Healthbar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/93CC9D9D-D3CB-438F-827B-811749B7E486/73/9c64a67b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wheel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,7 +267,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController1.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" />
@@ -102,21 +274,27 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Spawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RabbitMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/Scripts/AN_Button.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Healthbar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" />
       </list>
     </option>
   </component>
@@ -203,7 +381,9 @@
       <workItem from="1611484827117" duration="6549000" />
       <workItem from="1611520523326" duration="1158000" />
       <workItem from="1611573814702" duration="7794000" />
-      <workItem from="1611598622542" duration="8677000" />
+      <workItem from="1611598622542" duration="11380000" />
+      <workItem from="1611737590333" duration="16803000" />
+      <workItem from="1611829069129" duration="10449000" />
     </task>
     <servers />
   </component>
@@ -318,6 +498,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1085" y="395" key="RiderGenerateDialog/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1609709770960" />
+    <state x="894" y="320" width="773" height="801" key="find.popup" timestamp="1611753037691">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="894" y="320" width="773" height="801" key="find.popup/-1920.0.1536.864/0.0.2560.1440@0.0.2560.1440" timestamp="1611753037691" />
     <state x="937" y="341" key="run.anything.popup" timestamp="1611487888619">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

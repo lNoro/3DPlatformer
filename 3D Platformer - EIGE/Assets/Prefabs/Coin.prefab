@@ -116,6 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09eee229b6c190040959ac4198f06748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParticlePrefab: {fileID: 3662342721496404188, guid: 8af381d592729884182bf190cf869030, type: 3}
 --- !u!64 &6832060336372220461
 MeshCollider:
   m_ObjectHideFlags: 0

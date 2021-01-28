@@ -64,6 +64,45 @@ public class Turntable : MonoBehaviour
         
         sound.Source.Play();
     }
+    
+    public void StopSound(string name_p)
+    {
+        Sound sound = Array.Find(Sounds, sound_p => sound_p.Name == name_p);
+        
+        if (sound == null)
+        {
+            Debug.LogWarning("Soundfile " + name_p + " not found !");
+            return;
+        }
+        
+        sound.Source.Stop();
+    }
+    
+    public void FadeOutSound(string name_p, string next_p)
+    {
+        Sound fade = Array.Find(Sounds, sound_p => sound_p.Name == name_p);
+        Sound next = Array.Find(Sounds, sound_p => sound_p.Name == next_p);
+        
+        if (fade == null || next == null)
+        {
+            Debug.LogWarning("Soundfile " + name_p + " or " + next_p + " not found !");
+            return;
+        }
+        StopAllCoroutines();
+        StartCoroutine(FadeOutAndPlay(fade, next));
+    }
+
+    IEnumerator FadeOutAndPlay(Sound fade_p, Sound next_p)
+    {
+        while (Mathf.Abs(fade_p.Source.volume) > .1f)
+        {
+            fade_p.Source.volume -= .01f;
+            yield return null;
+        }
+        StopSound(fade_p.Name);
+        PlaySound(next_p.Name);
+        AdjustVolume(1f);
+    }
 
     public void AdjustVolume(float value_p)
     {
@@ -83,5 +122,21 @@ public class Turntable : MonoBehaviour
     void Start()
     {
         PlaySound("MainTheme");
+    }
+
+    public void PlayBattleTheme()
+    {
+        StopSound("MainTheme");
+        PlaySound("Battle");
+        PlaySound("BattleAmbience");
+        PlaySound("SlimeSound");
+    }
+    
+    public void StopBattleTheme()
+    {
+        FadeOutSound("Battle", "MainTheme");
+        PlaySound("BattleWon");
+        StopSound("BattleAmbience");
+        StopSound("SlimeSound");
     }
 }

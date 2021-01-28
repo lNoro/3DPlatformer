@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: b2454f5f95913bd43a3779e7c043cc5a
+  - enabled: 1
     path: Assets/Scenes/Palace Night.unity
     guid: a5df9867bdacd604dbe1d73079151448
   m_configObjects: {}

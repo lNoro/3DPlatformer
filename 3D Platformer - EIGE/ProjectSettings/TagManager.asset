@@ -13,6 +13,8 @@ TagManager:
   - DoubleJump
   - Sprint
   - Rabbit
+  - Water
+  - Enemy
   layers:
   - Default
   - TransparentFX

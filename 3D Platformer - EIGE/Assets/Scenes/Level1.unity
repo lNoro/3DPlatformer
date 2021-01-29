@@ -4577,7 +4577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 2.4, y: 130.5}
+  m_AnchoredPosition: {x: 0, y: 130}
   m_SizeDelta: {x: 626.18787, y: 81.71159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953102824
@@ -11077,7 +11077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7472245128621975945, guid: 3a593e9d8ce47374fb6feba2ccbd2977, type: 3}
       propertyPath: Dialog.Sentences.Array.data[1]
-      value: Kindle Bonfires to bound your Soul.
+      value: Kindle a Bonfire to bound your Soul.
       objectReference: {fileID: 0}
     - target: {fileID: 7472245128621975945, guid: 3a593e9d8ce47374fb6feba2ccbd2977, type: 3}
       propertyPath: Dialog.Sentences.Array.data[2]

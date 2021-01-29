@@ -8304,7 +8304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205b7892c2b217a40ae6627824abe3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextLevel: End
+  NextLevel: EndCredits
   Transition: {fileID: 2010152083}
 --- !u!114 &989910411
 MonoBehaviour:

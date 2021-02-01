@@ -32,5 +32,12 @@ public class OpenScene : MonoBehaviour
     {
         EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
         EditorSceneManager.OpenScene("Assets/Scenes/End.unity");
-    }    
+    }
+    
+    [MenuItem("Open Scene/End Credits")]
+    static void EndCredits()
+    {
+        EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+        EditorSceneManager.OpenScene("Assets/Scenes/EndCredits.unity");
+    }   
 }

@@ -20,9 +20,274 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Monster Bite.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Monster Bite.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Arrows Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Arrows Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Battery Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Battery Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Bomb Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Bomb Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crossed Wrenches Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crossed Wrenches Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crystal Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Crystal Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Cup Silver.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Cup Silver.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Diamond Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Diamond Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Flags Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Flags Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Jerry Can Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Jerry Can Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lightning Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lightning Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lock Silver.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Lock Silver.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Magnet BlueRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Magnet BlueRed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Medipack Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Medipack Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Poison Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Poison Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Shield Metal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Shield Metal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Skull Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Skull Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Star Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Materials/Star Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Arrows.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Arrows.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Battery.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Battery.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Bomb.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Bomb.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Crystal.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Crystal.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Cup.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Cup.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Diamond.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Diamond.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Flags.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Flags.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Heart.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Heart.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Hourglass.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Hourglass.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/JerryCan.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/JerryCan.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lightning.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lightning.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lock.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Lock.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Magnet.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Magnet.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Medipack.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Medipack.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Poison.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Poison.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Shield.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Shield.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Skull.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Skull.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Star.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Meshes/Star.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Battery Black.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Battery Black.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crossed Wrenches Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crossed Wrenches Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crystal Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Crystal Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Cup Silver.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Cup Silver.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Flags Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Flags Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Heart Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Heart Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Hourglass Green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Hourglass Green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Lightning Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Lightning Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Magnet BlueRed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Magnet BlueRed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Medipack Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Medipack Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Poison Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Poison Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Star Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Prefabs/Star Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Scenes/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Scenes/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Arrows Green.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Arrows Green.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Battery Black.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Battery Black.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crossed Wrenches Red.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crossed Wrenches Red.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crystal Green.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Crystal Green.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Cup Silver.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Cup Silver.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Diamond Green.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Diamond Green.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Flag Green.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Flag Green.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Heart Purple.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Heart Purple.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Hourglass Green.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Hourglass Green.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Jerry Can Green.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Jerry Can Green.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lightning Blue.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lightning Blue.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lock Silver.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Lock Silver.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Magnet BlueRed.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Magnet BlueRed.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Medipack Red.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Medipack Red.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Poison Purple.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Poison Purple.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Shield Metal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Shield Metal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Star Red.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/PowerUps Vol 1 Free/Textures/Star Red.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-0-Alient_Statue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-1-GiantStatue_Hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-2-GiantStatue_Hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-3-Head_Totem.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-4-Collumn_Ruin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques-5-Collumn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.vox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Reliques/Package/AncientReliques.vox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.vox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Rock Statues/Package/AncientRockStatues.vox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.vox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Temple/Package/AncientTemple.vox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientPyramidShip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientPyramidShip.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.vox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Various Assets/Ancient Assets/Ancient Treasure/Package/AncientTreasure.vox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Healthbar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Healthbar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InvisibleWall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InvisibleWall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RabbitMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RabbitMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Bloop.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Bloop.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Blubb.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Blubb.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Checkpoint.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Checkpoint.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/HitAir1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/HitAir1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/HitAir2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/HitAir2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Interact.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Interact.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Nice.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Nice.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/Sound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/TikTok.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/CasualGameSounds/TikTok.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Free Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Free Pack/Monster Bite.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Free Pack/Monster Bite.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/Battle.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/Battle.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/bigbattle_2_FULL.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/bigbattle_2_FULL.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/espionage_1_LOOP_A_FULL.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/espionage_1_LOOP_A_FULL.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/maintheme_1_the_combat_collection.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/The combat collection STARTER/maintheme_1_the_combat_collection.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,39 +330,40 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Turntable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narrator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Sound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/MovingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Dialog.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController1.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Char/Landing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Fall.cs" />
         <option value="$PROJECT_DIR$/Assets/Animations/AnimationBehaviour/Platforms/Spawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/Scripts/AN_Button.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/Narrator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Narration/StoryElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RabbitMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/FallingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/OpenDoorLvl2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/RotatingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editor/OpenScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/ImportedAssets/AN Interactive Physical Door Pack/Scripts/AN_Button.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound/Turntable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bonfire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Healthbar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformScripts/InvisPlatforms.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InvisibleWall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rabbit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RabbitMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RestartOnCollide.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" />
       </list>
     </option>
   </component>
@@ -187,6 +453,9 @@
       <workItem from="1611598622542" duration="11380000" />
       <workItem from="1611737590333" duration="16803000" />
       <workItem from="1611829069129" duration="10450000" />
+      <workItem from="1611938310069" duration="781000" />
+      <workItem from="1612002744990" duration="1016000" />
+      <workItem from="1612171936374" duration="3345000" />
     </task>
     <servers />
   </component>

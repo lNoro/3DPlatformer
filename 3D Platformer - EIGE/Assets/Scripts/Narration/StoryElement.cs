@@ -10,20 +10,31 @@ using UnityEngine;
 public class StoryElement : MonoBehaviour
 {
     public Dialog Dialog;
+    
     private bool m_DialogShown = false;
-
     private PhysicMaterial m_Slippery;
 
+    /*
+     * Set this to true, if dialog should not be displayed anymore when entering trigger
+     */
     public bool DialogShown
     {
         get => m_DialogShown;
         set => m_DialogShown = value;
     }
 
+    /*
+     * Invokes StartDialog method of Narrator
+     * Gives Player ability to sprint, double jump if tag of this
+     * game object is set so
+     */
     private void OnTriggerEnter(Collider other)
     {
+        //temporarily deactivate slippery physic collider of player
+        //This is only to not slide player after he can't move anymore
         m_Slippery = other.material;
         other.material = null;
+        
         if (!m_DialogShown)
         {
             FindObjectOfType<Narrator>().StartDialog(Dialog);
@@ -39,6 +50,9 @@ public class StoryElement : MonoBehaviour
         }
     }
 
+    /*
+     * Reactivates the physic collider of the player
+     */
     private void OnTriggerExit(Collider other)
     {
         other.material = m_Slippery;

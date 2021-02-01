@@ -21,28 +21,37 @@ public class Narrator : MonoBehaviour
     public TMP_Text InteractField;
     public Image InteractBackground;
     public GameObject Player;
-    
+
+    private PlayerController m_PlayerController;
     private Vignette Vignette;
     private Queue<string> m_Lines;
     private string m_ContinueMessage;
     private bool m_NextLine = true;
     private bool m_Started = false;
-    
-    
+
+
     // Start is called before the first frame update
     void Start()
     {
-        VolumeProfile.TryGet<Vignette>(out Vignette);
         m_Lines = new Queue<string>();
+        m_PlayerController = Player.GetComponent<PlayerController>();
+        
+        VolumeProfile.TryGet<Vignette>(out Vignette);
         InteractBackground.enabled = false;
     }
     
+    /*
+     * Shows the Interact TextUI with given string
+     */
     public void ShowInteractable(string line_p)
     {
         InteractBackground.enabled = true;
         InteractField.text = line_p;
     }
 
+    /*
+     * Disables Interact TextUI and deletes its content
+     */
     public void HideInteractable()
     {
         InteractBackground.enabled = false;
@@ -54,9 +63,11 @@ public class Narrator : MonoBehaviour
      */
     public void StartDialog(Dialog dialog_p)
     {
+        //Need this check, otherwise sometimes Null reference exception
         if(m_Lines == null)
             m_Lines = new Queue<string>();
-        //Disable Player Movement while Storytelling
+        
+        //Disable Player Movement while Storytelling, and reset members
         Player.GetComponent<PlayerController>().DisableMovement();
         m_Started = true;
         m_Lines.Clear();
@@ -72,6 +83,9 @@ public class Narrator : MonoBehaviour
         DisplayNextSentence();
     }
 
+    /*
+     * Goes through lines to display and sends them to Coroutine TypeLine
+     */
     private void DisplayNextSentence()
     {
         if (m_Lines.Count == 0)
@@ -90,7 +104,7 @@ public class Narrator : MonoBehaviour
     }
 
     /*
-     * Types given string Char by Char into DialogTextField
+     * Types given line, Char by Char into DialogTextField
      */
     IEnumerator TypeLine(string line_p)
     {
@@ -122,7 +136,7 @@ public class Narrator : MonoBehaviour
     {
         DialogField.text = "";
         ContinueField.text = "";
-        Player.GetComponent<PlayerController>().EnableMovement();
+        m_PlayerController.EnableMovement();
         m_Started = false;
     }
 

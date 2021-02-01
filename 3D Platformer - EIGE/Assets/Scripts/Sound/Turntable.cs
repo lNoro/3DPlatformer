@@ -17,6 +17,9 @@ public class Turntable : MonoBehaviour
     private float[] m_InitialVolume;
     private float[] m_AdjustedVolume;
     
+    /*
+     * Get all Sounds registered in the inspector and save them
+     */
     private void Awake()
     {
         if (m_Instance == null)
@@ -65,6 +68,9 @@ public class Turntable : MonoBehaviour
         sound.Source.Play();
     }
     
+    /*
+     * Stop the sound, according to given String
+     */
     public void StopSound(string name_p)
     {
         Sound sound = Array.Find(Sounds, sound_p => sound_p.Name == name_p);
@@ -78,6 +84,10 @@ public class Turntable : MonoBehaviour
         sound.Source.Stop();
     }
     
+    /*
+     * Fade volume of first sound to 0 and stop playing
+     * Then start second Sound
+     */
     public void FadeOutSound(string name_p, string next_p)
     {
         Sound fade = Array.Find(Sounds, sound_p => sound_p.Name == name_p);
@@ -92,6 +102,10 @@ public class Turntable : MonoBehaviour
         StartCoroutine(FadeOutAndPlay(fade, next));
     }
 
+    /*
+     * Reduce volume by .01f every frame, after reaching threshold
+     * stop sound and play the next one
+     */
     IEnumerator FadeOutAndPlay(Sound fade_p, Sound next_p)
     {
         while (Mathf.Abs(fade_p.Source.volume) > .1f)
@@ -104,6 +118,11 @@ public class Turntable : MonoBehaviour
         AdjustVolume(1f);
     }
 
+    /*
+     * Activated by the slider of options menu.
+     * Get value between 0.1 - 1
+     * Set percentage volume based on value
+     */
     public void AdjustVolume(float value_p)
     {
         for (int i = 0; i < m_InitialVolume.Length; i++)
@@ -124,6 +143,9 @@ public class Turntable : MonoBehaviour
         PlaySound("MainTheme");
     }
 
+    /*
+     * Called after entering Blobbs Domain
+     */
     public void PlayBattleTheme()
     {
         StopSound("MainTheme");
@@ -132,6 +154,9 @@ public class Turntable : MonoBehaviour
         PlaySound("SlimeSound");
     }
     
+    /*
+     * Called after Blobbs Death
+     */
     public void StopBattleTheme()
     {
         FadeOutSound("Battle", "MainTheme");

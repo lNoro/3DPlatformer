@@ -1438,14 +1438,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turntable
       objectReference: {fileID: 0}
-    - target: {fileID: 7115636837350753008, guid: c2f326e21300d50488b71bfcac603f26, type: 3}
-      propertyPath: Sounds.Array.data[17].Volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7115636837350753008, guid: c2f326e21300d50488b71bfcac603f26, type: 3}
-      propertyPath: Sounds.Array.data[5].Volume
-      value: 0.85
-      objectReference: {fileID: 0}
     - target: {fileID: 7115636837350753009, guid: c2f326e21300d50488b71bfcac603f26, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

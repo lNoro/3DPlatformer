@@ -14,8 +14,15 @@ public class CallElevator : MonoBehaviour
     //Private Members
     private Animator m_ElevatorAnim;
     private String m_CurrentState = "Up";
-    private bool m_CallingAllowed = false;
+    private static bool m_CallingAllowed = false;
     private Transform m_Parent;
+
+    private void Awake()
+    {
+        //reset Calling allowed when level reloaded
+        if (m_CallingAllowed)
+            m_CallingAllowed = false;
+    }
 
     private void Start()
     {
@@ -59,7 +66,10 @@ public class CallElevator : MonoBehaviour
             if (m_Parent.CompareTag("Up"))
                 ActivateElevator();
             else
+            {
+                FindObjectOfType<Narrator>().ShowInteractable("Currently not working");
                 return;
+            }
         }
         
         if (m_CurrentState == "Up")

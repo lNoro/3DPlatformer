@@ -10,6 +10,8 @@ public class Wheel : MonoBehaviour
 {
     public GameObject Water;
 
+    private bool m_Used = false;
+
     /*
      * If player can interact with wheel,
      * play animations and sounds
@@ -19,7 +21,7 @@ public class Wheel : MonoBehaviour
         if(!other.CompareTag("Player"))
             return;
         
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!m_Used && Input.GetKeyDown(KeyCode.E))
         {
             if (other.GetComponent<PlayerController>().Key)
             {
@@ -28,10 +30,12 @@ public class Wheel : MonoBehaviour
                 FindObjectOfType<Turntable>().PlaySound("Water");
                 FindObjectOfType<Turntable>().StopBattleTheme();
                 enabled = false;
+                m_Used = true;
             }
             else
             {
                 FindObjectOfType<Turntable>().PlaySound("Error");
+                FindObjectOfType<Narrator>().ShowInteractable("This needs a Key");
             }
         }
     }

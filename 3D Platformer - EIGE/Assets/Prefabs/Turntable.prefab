@@ -76,7 +76,7 @@ MonoBehaviour:
     Source: {fileID: 0}
   - Name: MainTheme
     AudioClip: {fileID: 8300000, guid: 64226ed5c93084b4eb52a80d3d1a2419, type: 3}
-    Volume: 1
+    Volume: 0.85
     Pitch: 1
     Loop: 1
     Source: {fileID: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
     Source: {fileID: 0}
   - Name: PressStart
     AudioClip: {fileID: 8300000, guid: 6a2d08196a8cf445eaca6ddfc03a9aaf, type: 3}
-    Volume: 0.75
+    Volume: 1
     Pitch: 1
     Loop: 0
     Source: {fileID: 0}

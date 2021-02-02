@@ -15,6 +15,7 @@ TagManager:
   - Rabbit
   - Water
   - Enemy
+  - Troll
   layers:
   - Default
   - TransparentFX

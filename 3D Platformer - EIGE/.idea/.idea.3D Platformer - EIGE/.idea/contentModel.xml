@@ -18,6 +18,11 @@
               <e p="Spawn.cs" t="Include" />
             </e>
           </e>
+          <e p="PlatformAnims" t="Include">
+            <e p="Troll" t="Include">
+              <e p="TrollEnding.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Editor" t="Include">
           <e p="OpenScene.cs" t="Include" />
@@ -132,6 +137,7 @@
             <e p="MovingPlatform.cs" t="Include" />
             <e p="OpenDoorLvl2.cs" t="Include" />
             <e p="RotatingPlatform.cs" t="Include" />
+            <e p="Troll.cs" t="Include" />
             <e p="Wheel.cs" t="Include" />
           </e>
           <e p="Narration" t="Include">

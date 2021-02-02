@@ -20,13 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35ff47b-41f6-411b-b54a-1df5083da4d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll/AnnoyingPush.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll/AnnoyingPush.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll/Troll.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll/Troll.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll/TrollEnding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll/TrollEnding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/Troll.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/Troll.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer - EIGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Turntable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndCredits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndCredits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rotating.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rotating.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/CallElevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/CallElevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/Wheel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/Wheel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Charaters/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Charaters/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +103,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/CallElevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/Wheel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Charaters/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animations/PlatformAnims/Troll/TrollEnding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/Troll.cs" />
       </list>
     </option>
   </component>
@@ -185,6 +198,7 @@
       <workItem from="1611938310069" duration="781000" />
       <workItem from="1612002744990" duration="1016000" />
       <workItem from="1612171936374" duration="5431000" />
+      <workItem from="1612219253858" duration="1620000" />
     </task>
     <servers />
   </component>

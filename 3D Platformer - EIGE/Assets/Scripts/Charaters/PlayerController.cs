@@ -102,7 +102,6 @@ public class PlayerController : MonoBehaviour
 
     #endregion
     
-    
     /*
      * Initialize some Members on Awake
      */
@@ -332,6 +331,11 @@ public class PlayerController : MonoBehaviour
         {
             FindObjectOfType<Turntable>().PlaySound("Bite");
             Spawn();
+        }
+        else if (other.gameObject.CompareTag("Troll"))
+        {
+            Vector3 velo = new Vector3(m_RigidbodyPlayer.velocity.x + 5f, m_RigidbodyPlayer.velocity.y, m_RigidbodyPlayer.velocity.z);
+            m_RigidbodyPlayer.velocity = velo;
         }
     }
     

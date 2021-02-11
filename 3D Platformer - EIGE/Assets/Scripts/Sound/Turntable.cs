@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 /*
  * Generic Singleton Sound Manager
@@ -163,5 +164,17 @@ public class Turntable : MonoBehaviour
         PlaySound("BattleWon");
         StopSound("BattleAmbience");
         StopSound("SlimeSound");
+    }
+    
+    public void ReturnMenu()
+    {
+        if (SceneManager.GetActiveScene().name == "End")
+        {
+            StopSound("Battle");
+            StopSound("BattleAmbience");
+            StopSound("SlimeSound");
+        }
+        StopSound("MainTheme");
+        PlaySound("MainTheme");
     }
 }

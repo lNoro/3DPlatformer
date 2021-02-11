@@ -28,6 +28,7 @@ public class Narrator : MonoBehaviour
     private string m_ContinueMessage;
     private bool m_NextLine = true;
     private bool m_Started = false;
+    private bool m_StoryTeaser = false;
 
 
     // Start is called before the first frame update
@@ -72,6 +73,7 @@ public class Narrator : MonoBehaviour
         m_Started = true;
         m_Lines.Clear();
         m_ContinueMessage = "";
+        m_StoryTeaser = dialog_p.StoryTeaser;
 
         //Add Lines to Queue
         foreach (var sentence in dialog_p.Sentences)
@@ -138,6 +140,12 @@ public class Narrator : MonoBehaviour
         ContinueField.text = "";
         m_PlayerController.EnableMovement();
         m_Started = false;
+        
+        if (m_StoryTeaser)
+        {
+            m_StoryTeaser = false;
+            FindObjectOfType<StoryTeaser>().NextScene();
+        }
     }
 
     /*

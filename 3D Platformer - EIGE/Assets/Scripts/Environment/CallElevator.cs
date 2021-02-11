@@ -13,7 +13,7 @@ public class CallElevator : MonoBehaviour
     
     //Private Members
     private Animator m_ElevatorAnim;
-    private String m_CurrentState = "Up";
+    private static string m_CurrentState = "Up";
     private static bool m_CallingAllowed = false;
     private Transform m_Parent;
 
@@ -74,12 +74,14 @@ public class CallElevator : MonoBehaviour
         
         if (m_CurrentState == "Up")
         {
-            m_ElevatorAnim.SetTrigger("GoDown");
+            m_ElevatorAnim.SetBool("GoUp", false);
+            m_ElevatorAnim.SetBool("GoDown", true);
             m_CurrentState = "Down";
         }
         else
         {
-            m_ElevatorAnim.SetTrigger("GoUp");
+            m_ElevatorAnim.SetBool("GoDown", false);
+            m_ElevatorAnim.SetBool("GoUp", true);
             m_CurrentState = "Up";
         }
     }

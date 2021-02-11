@@ -8,6 +8,7 @@ using UnityEngine;
 [System.Serializable]
 public class Dialog
 {
+    public bool StoryTeaser;
     [TextArea(3, 10)]
     public string[] Sentences;
 

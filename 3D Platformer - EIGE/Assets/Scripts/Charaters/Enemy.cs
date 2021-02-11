@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 /*
  * Hostile Enemy Script
@@ -31,6 +32,7 @@ public class Enemy : MonoBehaviour
         LineOfSight,
         Intercept,
         PatternMovement,
+        NavPatternMovement,
         ChasePatternMovement,
         Hide,
         Attack
@@ -70,6 +72,10 @@ public class Enemy : MonoBehaviour
             
             case EnemyBehaviour.PatternMovement:
                 PatternMovement();
+                break;
+            
+            case EnemyBehaviour.NavPatternMovement:
+                    NavPatternMovement();
                 break;
             
             case EnemyBehaviour.Hide:
@@ -141,6 +147,15 @@ public class Enemy : MonoBehaviour
         {
             m_CurrentWayPoint = (m_CurrentWayPoint + 1) % WayPoints.Count; //modulo to restart at the beginning.
         }
+    }
+    
+    /*
+     * Move smart between WayPoints (FAILED)
+     */
+    private void NavPatternMovement()
+    {
+        // m_CurrentWayPoint = (m_CurrentWayPoint + 1) % WayPoints.Count; //modulo to restart at the beginning.
+        // m_Agent.destination = WayPoints[m_CurrentWayPoint].transform.position;
     }
 
     /*

@@ -144,6 +144,7 @@
             <e p="Dialog.cs" t="Include" />
             <e p="Narrator.cs" t="Include" />
             <e p="StoryElement.cs" t="Include" />
+            <e p="StoryTeaser.cs" t="Include" />
           </e>
           <e p="Sound" t="Include">
             <e p="Sound.cs" t="Include" />

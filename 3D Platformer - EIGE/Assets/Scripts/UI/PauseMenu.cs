@@ -49,6 +49,9 @@ public class PauseMenu : MonoBehaviour
         //Reset everything
         FindObjectOfType<PlayerController>().ResetProgress();
         
+        //Reset Music
+        FindObjectOfType<Turntable>().ReturnMenu();
+        
         //Load Startscene
         SceneManager.LoadScene("StartScene");
     }
